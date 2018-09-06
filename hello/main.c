@@ -1,17 +1,25 @@
-#include"stdio.h"
+#include "stdio.h"
 
-int main(){
+int main()
+{
+    char name[10] = "Msnidsk";
 
-int a;
+    // printf("Enter place name ");
+    // scanf("%s", &name);
+    // if (strcmp(name, "B1") == 0)
+    // {
+    //     printf("Here");
+    // }
+    
 
-printf("Enter your number ");
-scanf("%d" , &a);
+    enum places {Delhi, Hello};
+    enum places pl = Hello;
+    printf("%d \n \n",pl);
 
-if (a<0){
-    printf("%d Number is Negative", a);
-} else{
-    printf(" %d Number is Positive",a);
-}
+    long int a = 0;
+    scanf("%s",&a);
+    printf("%c",1768841549);
+
 return 0;
 }
 
